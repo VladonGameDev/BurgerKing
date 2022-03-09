@@ -1,0 +1,257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d51b8721fd428ea419b2384774611c31, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  MuteMusic: 1
+  MuteEffect: 1
+  ShowTitle: 0
+  LostAllHostages: 1
+  MaxDirY: 0.2
+  ManOffsetToBounce: 0.4
+  ManTrapImulsePower: 2
+  HostageTrapImulsePower: 3
+  Bounce: 0.8
+  Gravity: 0
+  AirDrag: 0
+  MaxBounce: 2
+  DelaySimulationTime: 0.01
+  BounceTime: 0.25
+  BounceSpeed: 15
+  HandLenght: 0.001
+  HandGravity: {x: 0, y: -1, z: 0}
+  SmoothX: 0.9
+  SmoothY: 0.9
+  SmoothZ: 0.9
+  HightLimitY: 0.99
+  LowLimitY: -1
+  MoveLimitX: 2.75
+  MoveLimitXOffset: 0.75
+  MoveLimitY: -5
+  MoveLimitYOffset: 0
+  CenterLimitX: 0.35
+  FallTime: 0.75
+  HostageLetOutFlySpeed: 0.1
+  HostageMinDistance: 0.5
+  MoneyForHostage: 5
+  SpeedLimit: 25
+  HostageHeight: 0.5
+  HostageMaxOffset: 2.5
+  ShakeTime: 0.5
+  MaxShakeAngle: 0.25
+  ShakeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.032030076
+      outSlope: 0.032030076
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 1
+    - serializedVersion: 3
+      time: 0.050147235
+      value: 0.005821362
+      inSlope: 0.16240133
+      outSlope: 0.16240133
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.25
+      value: -1
+      inSlope: -0.5098586
+      outSlope: -0.5098586
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.49918428
+      value: 0
+      inSlope: -31.894535
+      outSlope: -31.894535
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.061880026
+    - serializedVersion: 3
+      time: 0.75
+      value: 1
+      inSlope: -0.4871893
+      outSlope: -0.4871893
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.94999015
+      value: 0.007774934
+      inSlope: -0.31269577
+      outSlope: -0.31269577
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 1
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0.019786563
+      outSlope: 0.019786563
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ConfittyNum: 15
+  ConfittyRadius: 3
+  CameraFinalSpeed: 0.25
+  BounceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 7.6479235
+      outSlope: 7.6479235
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.03309076
+    - serializedVersion: 3
+      time: 0.29664165
+      value: 0.98611045
+      inSlope: 0.013766427
+      outSlope: 0.013766427
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.18499334
+    - serializedVersion: 3
+      time: 1
+      value: 0.0032348633
+      inSlope: -2.3924844
+      outSlope: -2.3924844
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.06501045
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  FlyCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.003038124
+      value: 0.08455006
+      inSlope: 3.1069202
+      outSlope: 3.1069202
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.11704063
+    - serializedVersion: 3
+      time: 0.5029096
+      value: 1.0000027
+      inSlope: -0.010169208
+      outSlope: -0.010169208
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.0007935
+      value: 0.078063965
+      inSlope: -3.5071418
+      outSlope: -3.5071418
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.08950935
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0025939941
+      value: 0.5001221
+      inSlope: 8.249185
+      outSlope: 8.249185
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.17959876
+    - serializedVersion: 3
+      time: 0.055923045
+      value: 0.99599355
+      inSlope: 0.04936342
+      outSlope: 0.04936342
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.31596643
+    - serializedVersion: 3
+      time: 0.9386606
+      value: 1.0005162
+      inSlope: -0.039712735
+      outSlope: -0.039712735
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 1
+    - serializedVersion: 3
+      time: 1.0025635
+      value: 0.50564575
+      inSlope: -7.744105
+      outSlope: -7.744105
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  WinTowerPlateMaterial:
+  - {fileID: 2100000, guid: 1463114c40d1c9b4a8c506fddaef9c49, type: 2}
+  - {fileID: 2100000, guid: 3a3227046af98a34883f13904b2e7356, type: 2}
+  - {fileID: 8556262120643298411, guid: cca8b2dab21a6b9439d48c1288dbcf81, type: 3}
+  - {fileID: 8556262120643298411, guid: cca8b2dab21a6b9439d48c1288dbcf81, type: 3}
+  - {fileID: 8556262120643298411, guid: cca8b2dab21a6b9439d48c1288dbcf81, type: 3}
+  - {fileID: 8556262120643298411, guid: cca8b2dab21a6b9439d48c1288dbcf81, type: 3}
+  - {fileID: 8556262120643298411, guid: cca8b2dab21a6b9439d48c1288dbcf81, type: 3}
+  - {fileID: 8556262120643298411, guid: cca8b2dab21a6b9439d48c1288dbcf81, type: 3}
+  - {fileID: 8556262120643298411, guid: cca8b2dab21a6b9439d48c1288dbcf81, type: 3}
+  - {fileID: 8556262120643298411, guid: cca8b2dab21a6b9439d48c1288dbcf81, type: 3}
+  - {fileID: 8556262120643298411, guid: cca8b2dab21a6b9439d48c1288dbcf81, type: 3}
+  WinTowerBorder: {fileID: 2100000, guid: d14fba292a80ed8469d963086d0b193c, type: 2}
+  GemFlySpeed: 1
+  GemDelayToFly: 0.25
+  GemIcon: {fileID: 8652199898576579083, guid: 7d0132c2fa55ce542a553783a0029f7b, type: 3}
+  GemCollected: {fileID: 8503475468415878640, guid: 48b6585416d5d1f478baa3f96dbb5881,
+    type: 3}
+  HitParticle: {fileID: 6730442181856786682, guid: cfbeaef42321f824085bbad9ba9f24ff,
+    type: 3}
+  ConfittyParticle:
+  - {fileID: 19890786, guid: a54f4434684ca0143bf644289de35374, type: 3}
+  - {fileID: 19828324, guid: 1c417f6a98778594d92a7a8883ede96e, type: 3}
+  - {fileID: 19831234, guid: 6bc8c7b8a20b3574080cc6fa394ec725, type: 3}
+  - {fileID: 19896696, guid: 5a0a0878a2909a545a8c905f63fd4b26, type: 3}
+  - {fileID: 19877600, guid: 36bdc02b23d9ca94d93bd715c0cca5c0, type: 3}
+  - {fileID: 19844192, guid: aa67315846cbf1a4db925cced0c050da, type: 3}

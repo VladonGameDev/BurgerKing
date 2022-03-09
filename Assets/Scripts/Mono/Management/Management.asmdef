@@ -1,0 +1,19 @@
+{
+    "name": "Management",
+    "references": [
+        "GUID:82773547788e38643b53aa2b94d554bd",
+        "GUID:89ad113a7b94cf74cad60246395f6057",
+        "GUID:81efe6c1a6b472241897621f9781cc8a",
+        "GUID:942edb8b732c20244baf2fe75d211dac",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b75bb3e1b09542a0a70df09e1cbe8, type: 3}
+  m_Name: SoundData
+  m_EditorClassIdentifier: 
+  soundItems:
+  - name: ButtonClick
+    id: click
+    Clip: {fileID: 8300000, guid: 37df4af2b924eb44eb595ada8ff9b863, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 100
+  - name: Hit
+    id: hit
+    Clip: {fileID: 8300000, guid: 9b64305338fa744529e4e68d36cadcbd, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 100
+  - name: Man Add
+    id: add
+    Clip: {fileID: 8300000, guid: 315ed121204fb7644bd14702737d8487, type: 3}
+    Volume: 0.742
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 100
+  - name: Man Add 2
+    id: add2
+    Clip: {fileID: 8300000, guid: 65c3e005905081448a50611f7fd6c86c, type: 3}
+    Volume: 0.748
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 100
+  - name: Cup
+    id: cup
+    Clip: {fileID: 8300000, guid: 2c6063195ad763542990d91a54afa4d8, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 100
+  - name: Win
+    id: win
+    Clip: {fileID: 8300000, guid: c69e3ac20a7f54e6eb62db5b74c25171, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 100
+  - name: ManFall
+    id: fall
+    Clip: {fileID: 8300000, guid: f18649aa00a26bb41b5b1208b5d9185f, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 100
+  musicItems: []
